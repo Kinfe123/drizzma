@@ -1,5 +1,5 @@
 {
-  "name": "drizzma",
+  "name": "drizzma-root",
   "private": true,
   "scripts": {
     "build": "turbo build",
