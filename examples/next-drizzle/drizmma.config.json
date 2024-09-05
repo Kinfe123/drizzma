@@ -1,0 +1,6 @@
+{
+    "generatorOption": {
+        "outputPath": "./drizzle",
+        "provider": "pg"
+    }
+}

@@ -10,7 +10,7 @@ import {
 type UnReadonlyDeep<P> = {
   -readonly [K in keyof P]: UnReadonlyDeep<P[K]>;
 };
-const importPg = new Set<string>(["pgTables"]);
+const importPg = new Set<string>(["pgTable"]);
 
 const importDrizzle = new Set<string>();
 
@@ -217,7 +217,6 @@ const generatePgTable = (
         .map((e) => [e.name, prismaToDrizzleCol(e)])
         .filter((e) => e[1] !== undefined)
     );
-    console.log("Object is: ", columnFields);
 
     const indexes: string[] = [];
 

@@ -18,5 +18,5 @@ import { build } from 'tsup';
 		},
 	});
 
-	// fs.copyFileSync('package.json', 'dist/package.json');
+	fs.copyFileSync('drizzma.config.json', 'dist/drizzma.config.json');
 })();

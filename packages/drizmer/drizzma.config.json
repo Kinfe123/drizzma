@@ -1,0 +1,6 @@
+{
+    "generatorOption": {
+        "outputPath": "./drizzle/schemaDB.ts",
+        "provider": "pg"
+    }
+}
